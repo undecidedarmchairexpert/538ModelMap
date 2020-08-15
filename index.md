@@ -6,7 +6,7 @@
 ![Choropleth Map](/choropleth_map.png)
 
 ##### Key
-![Map Key](/map_key.png)
+ <img src="key_map.png" width="100" height="100">
 
 
 # [Click here for an interactive version of the map](choropleth_map.html)
