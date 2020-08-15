@@ -75,7 +75,7 @@ fig = go.Figure(data=go.Choropleth(
     autocolorscale=False,
     text=forecast_state_latest_state_ev['text'], # hover text
     marker_line_color='grey',
-    showscale=False,
+    # showscale=False,
 ))
 
 fig.update_layout(
@@ -85,6 +85,6 @@ fig.update_layout(
         showlakes=False,
     ),
 )
-
+fig.show()
 fig.write_html("choropleth_map.html")
 fig.write_image("choropleth_map.png")
