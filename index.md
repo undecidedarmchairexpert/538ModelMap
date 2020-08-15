@@ -2,7 +2,6 @@
 ---
 ## Chance of winning
 ![Model Probabilities](/images/model_probability.svg){:width="1350"}
-
 ![Choropleth Map](/images/choropleth_map.svg)
 
 |                 Electoral votes                ||                  Popular vote                  |
