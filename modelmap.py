@@ -30,22 +30,22 @@ plt.style.use('fivethirtyeight')
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
 ax.text(0, 0, "Donald Trump:                " + ev_inc, size=24)
-plt.savefig('ev_inc.svg', transparent=True, bbox_inches='tight')
+plt.savefig('images/ev_inc.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
 ax.text(0, 0, "Joe Biden:                       " + ev_chal, size=24)
-plt.savefig('ev_chal.svg', transparent=True, bbox_inches='tight')
+plt.savefig('images/ev_chal.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
 ax.text(0, 0, "Donald Trump:                " + pv_inc, size=24)
-plt.savefig('pv_inc.svg', transparent=True, bbox_inches='tight')
+plt.savefig('images/pv_inc.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
 ax.text(0, 0, "Joe Biden:                       " + pv_chal, size=24)
-plt.savefig('pv_chal.svg', transparent=True, bbox_inches='tight')
+plt.savefig('images/pv_chal.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(7, 1), dpi=300)
 ax.set_xlim(0, 100)
@@ -66,7 +66,7 @@ ax.xaxis.set_visible(False)
 ax.yaxis.set_visible(False)
 plt.box(False)
 
-plt.savefig('model_probability.png', transparent=True, bbox_inches='tight')
+plt.savefig('images/model_probability.svg', transparent=True, bbox_inches='tight')
 
 
 # Grab the information to make the choropleth state-by-state map
@@ -105,7 +105,7 @@ fig = go.Figure(data=go.Choropleth(
     showscale=False,
 ))
 
-img = Image.open('map_key.png')
+img = Image.open('images/map_key.png')
 
 # Add image
 fig.add_layout_image(
@@ -128,4 +128,4 @@ fig.update_layout(
 )
 
 fig.write_html("choropleth_map.html")
-fig.write_image("choropleth_map.svg", scale=3)
+fig.write_image("images/choropleth_map.svg", scale=3)

@@ -1,14 +1,14 @@
 # Who will win the presidency?
 ---
 ## Chance of winning
-![Model Probabilities](/model_probability.png)
+![Model Probabilities](/images/model_probability.svg)
 
-![Choropleth Map](/choropleth_map.svg)
+![Choropleth Map](/images/choropleth_map.svg)
 
 |                 Electoral votes                ||                  Popular vote                  |
 |:-----------------------------------------------|---|:-----------------------------------------------|
-| ![Rep](/rep.png){:height="35"} ![EV_Incumbant](/ev_inc.svg){:height="35"}   |                | ![Rep](/rep.png){:height="35"} ![PV_Incumbant](/pv_inc.svg){:height="35"}   |
-| ![Dem](/dem.png){:height="35"} ![EV_Challenger](/ev_chal.svg){:height="35"} |                | ![Dem](/dem.png){:height="35"} ![PV_Challenger](/pv_chal.svg){:height="35"} |
+| ![Rep](/images/rep.png){:height="35"} ![EV_Incumbant](/images/ev_inc.svg){:height="35"}   |                | ![Rep](/images/rep.png){:height="35"} ![PV_Incumbant](/images/pv_inc.svg){:height="35"}   |
+| ![Dem](/images/dem.png){:height="35"} ![EV_Challenger](/images/ev_chal.svg){:height="35"} |                | ![Dem](/images/dem.png){:height="35"} ![PV_Challenger](/images/pv_chal.svg){:height="35"} |
 
 `Last Updated: August 15, 2020`
 
