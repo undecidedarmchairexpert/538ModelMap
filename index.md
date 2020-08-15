@@ -4,7 +4,7 @@
 ## Chance of winning
 ![Model Probabilities](/model_probability.png)
 
-![Choropleth Map](/choropleth_map.png)
+![Choropleth Map](/choropleth_map.svg)
 
 #### Key
 ![Map Key](/map_key.png){:height="30%" width="30%"}
