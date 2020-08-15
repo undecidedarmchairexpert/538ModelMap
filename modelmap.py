@@ -39,7 +39,7 @@ ax.xaxis.set_visible(False)
 ax.yaxis.set_visible(False)
 plt.box(False)
 
-plt.savefig('model_probability.png', transparent=True)
+plt.savefig('model_probability.png', transparent=True, bbox_inches='tight')
 
 
 # Grab the information to make the choropleth state-by-state map
