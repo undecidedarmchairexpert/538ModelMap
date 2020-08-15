@@ -1,5 +1,6 @@
 # Who will win the presidency?
 ---
+`Last Updated: August 15, 2020`
 ## Chance of winning
 ![Model Probabilities](/model_probability.png)
 
