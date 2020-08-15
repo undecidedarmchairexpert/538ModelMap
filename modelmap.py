@@ -29,22 +29,22 @@ plt.style.use('fivethirtyeight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
-ax.text(0, 0, "Donald Trump:            " + ev_inc, size=24)
+ax.text(0, 0, "Donald Trump:                " + ev_inc, size=24)
 plt.savefig('ev_inc.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
-ax.text(0, 0, "Joe Biden:               " + ev_chal, size=24)
+ax.text(0, 0, "Joe Biden:                       " + ev_chal, size=24)
 plt.savefig('ev_chal.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
-ax.text(0, 0, "Donald Trump:            " + pv_inc, size=24)
+ax.text(0, 0, "Donald Trump:                " + pv_inc, size=24)
 plt.savefig('pv_inc.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
 ax.axis("off")
-ax.text(0, 0, "Joe Biden:               " + pv_chal, size=24)
+ax.text(0, 0, "Joe Biden:                       " + pv_chal, size=24)
 plt.savefig('pv_chal.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(7, 1), dpi=300)

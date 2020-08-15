@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (https://matplotlib.org/) -->
-<svg height="42.71925pt" version="1.1" viewBox="0 0 372.94875 42.71925" width="372.94875pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="42.71925pt" version="1.1" viewBox="0 0 403.45875 42.71925" width="403.45875pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -11,15 +11,15 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 42.71925 
-L 372.94875 42.71925 
-L 372.94875 0 
+L 403.45875 42.71925 
+L 403.45875 0 
 L 0 0 
 z
 " style="fill:none;"/>
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <!-- Donald Trump:            46.07% -->
+    <!-- Donald Trump:                46.07% -->
     <defs>
      <path d="M 19.671875 64.796875 
 L 19.671875 8.109375 
@@ -413,12 +413,16 @@ z
      <use x="1017.378906" xlink:href="#DejaVuSans-32"/>
      <use x="1049.166016" xlink:href="#DejaVuSans-32"/>
      <use x="1080.953125" xlink:href="#DejaVuSans-32"/>
-     <use x="1112.740234" xlink:href="#DejaVuSans-52"/>
-     <use x="1176.363281" xlink:href="#DejaVuSans-54"/>
-     <use x="1239.986328" xlink:href="#DejaVuSans-46"/>
-     <use x="1271.773438" xlink:href="#DejaVuSans-48"/>
-     <use x="1335.396484" xlink:href="#DejaVuSans-55"/>
-     <use x="1399.019531" xlink:href="#DejaVuSans-37"/>
+     <use x="1112.740234" xlink:href="#DejaVuSans-32"/>
+     <use x="1144.527344" xlink:href="#DejaVuSans-32"/>
+     <use x="1176.314453" xlink:href="#DejaVuSans-32"/>
+     <use x="1208.101562" xlink:href="#DejaVuSans-32"/>
+     <use x="1239.888672" xlink:href="#DejaVuSans-52"/>
+     <use x="1303.511719" xlink:href="#DejaVuSans-54"/>
+     <use x="1367.134766" xlink:href="#DejaVuSans-46"/>
+     <use x="1398.921875" xlink:href="#DejaVuSans-48"/>
+     <use x="1462.544922" xlink:href="#DejaVuSans-55"/>
+     <use x="1526.167969" xlink:href="#DejaVuSans-37"/>
     </g>
    </g>
   </g>

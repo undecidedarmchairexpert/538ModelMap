@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (https://matplotlib.org/) -->
-<svg height="42.71925pt" version="1.1" viewBox="0 0 340.91625 42.71925" width="340.91625pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="42.71925pt" version="1.1" viewBox="0 0 401.93625 42.71925" width="401.93625pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -11,15 +11,15 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 42.71925 
-L 340.91625 42.71925 
-L 340.91625 0 
+L 401.93625 42.71925 
+L 401.93625 0 
 L 0 0 
 z
 " style="fill:none;"/>
   </g>
   <g id="axes_1">
    <g id="text_1">
-    <!-- Joe Biden:               52.63% -->
+    <!-- Joe Biden:                       52.63% -->
     <defs>
      <path d="M 9.8125 72.90625 
 L 19.671875 72.90625 
@@ -364,12 +364,20 @@ z
      <use x="883.886719" xlink:href="#DejaVuSans-32"/>
      <use x="915.673828" xlink:href="#DejaVuSans-32"/>
      <use x="947.460938" xlink:href="#DejaVuSans-32"/>
-     <use x="979.248047" xlink:href="#DejaVuSans-53"/>
-     <use x="1042.871094" xlink:href="#DejaVuSans-50"/>
-     <use x="1106.494141" xlink:href="#DejaVuSans-46"/>
-     <use x="1138.28125" xlink:href="#DejaVuSans-54"/>
-     <use x="1201.904297" xlink:href="#DejaVuSans-51"/>
-     <use x="1265.527344" xlink:href="#DejaVuSans-37"/>
+     <use x="979.248047" xlink:href="#DejaVuSans-32"/>
+     <use x="1011.035156" xlink:href="#DejaVuSans-32"/>
+     <use x="1042.822266" xlink:href="#DejaVuSans-32"/>
+     <use x="1074.609375" xlink:href="#DejaVuSans-32"/>
+     <use x="1106.396484" xlink:href="#DejaVuSans-32"/>
+     <use x="1138.183594" xlink:href="#DejaVuSans-32"/>
+     <use x="1169.970703" xlink:href="#DejaVuSans-32"/>
+     <use x="1201.757812" xlink:href="#DejaVuSans-32"/>
+     <use x="1233.544922" xlink:href="#DejaVuSans-53"/>
+     <use x="1297.167969" xlink:href="#DejaVuSans-50"/>
+     <use x="1360.791016" xlink:href="#DejaVuSans-46"/>
+     <use x="1392.578125" xlink:href="#DejaVuSans-54"/>
+     <use x="1456.201172" xlink:href="#DejaVuSans-51"/>
+     <use x="1519.824219" xlink:href="#DejaVuSans-37"/>
     </g>
    </g>
   </g>
