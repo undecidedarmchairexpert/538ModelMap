@@ -19,7 +19,33 @@ probability_r = round(forecast_national_latest.iloc[0].ecwin_inc*100, 2)
 probability_d = round(forecast_national_latest.iloc[0].ecwin_chal*100, 2)
 probability_o = 100 - (probability_d + probability_r)
 
+ev_chal = str(round(forecast_national_latest.ev_chal[0]))
+ev_inc = str(round(forecast_national_latest.ev_inc[0]))
+
+pv_chal = str(round(forecast_national_latest.national_voteshare_chal[0], 2)) + "%"
+pv_inc = str(round(forecast_national_latest.national_voteshare_inc[0], 2)) + "%"
+
 plt.style.use('fivethirtyeight')
+
+fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
+ax.axis("off")
+ax.text(0, 0, "Donald Trump: " + ev_inc, size=24)
+plt.savefig('ev_inc.svg', transparent=True, bbox_inches='tight')
+
+fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
+ax.axis("off")
+ax.text(0, 0, "Joe Biden: " + ev_chal, size=24)
+plt.savefig('ev_chal.svg', transparent=True, bbox_inches='tight')
+
+fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
+ax.axis("off")
+ax.text(0, 0, "Donald Trump: " + pv_inc, size=24)
+plt.savefig('pv_inc.svg', transparent=True, bbox_inches='tight')
+
+fig, ax = plt.subplots(figsize=(1, .4), dpi=300)
+ax.axis("off")
+ax.text(0, 0, "Joe Biden: " + pv_chal, size=24)
+plt.savefig('pv_chal.svg', transparent=True, bbox_inches='tight')
 
 fig, ax = plt.subplots(figsize=(7, 1), dpi=300)
 ax.set_xlim(0, 100)
