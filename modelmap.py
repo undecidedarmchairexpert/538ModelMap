@@ -2,6 +2,7 @@ import us
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+from PIL import Image
 
 
 county_ev = ["NE-1", "NE-2", "NE-3", "ME-1", "ME-2"]
@@ -75,8 +76,21 @@ fig = go.Figure(data=go.Choropleth(
     autocolorscale=False,
     text=forecast_state_latest_state_ev['text'], # hover text
     marker_line_color='grey',
-    # showscale=False,
+    showscale=False,
 ))
+
+img = Image.open('map_key.png')
+
+# Add image
+fig.add_layout_image(
+    dict(
+        source=img,
+        xref="paper", yref="paper",
+        x=1, y=0,
+        sizex=0.4, sizey=0.4,
+        xanchor="right", yanchor="bottom"
+    )
+)
 
 fig.update_layout(
     geo = dict(
@@ -84,7 +98,8 @@ fig.update_layout(
         projection=go.layout.geo.Projection(type = 'albers usa'),
         showlakes=False,
     ),
+    margin=dict(r=0, l=0, b=0, t=0, pad=0)
 )
-fig.show()
+
 fig.write_html("choropleth_map.html")
-fig.write_image("choropleth_map.png")
+fig.write_image("choropleth_map.svg", scale=3)

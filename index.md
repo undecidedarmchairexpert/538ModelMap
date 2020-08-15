@@ -6,10 +6,6 @@
 
 ![Choropleth Map](/choropleth_map.svg)
 
-#### Key
-![Map Key](/map_key.png){:height="30%" width="30%"}
-
-
 ### [Click here for an interactive version of the map](choropleth_map.html)
 
 # Note
