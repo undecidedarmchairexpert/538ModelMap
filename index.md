@@ -8,8 +8,8 @@
 
 |                                Electoral votes |   |                                   Popular vote |
 |-----------------------------------------------:|---|-----------------------------------------------:|
-| ![Rep](/rep.svg)![EV_Incumbant](/ev_inc.svg)   |   | ![Rep](/rep.svg)![PV_Incumbant](/pv_inc.svg)   |
-| ![Dem](/dem.svg)![EV_Challenger](/ev_chal.svg) |   | ![Dem](/dem.svg)![PV_Challenger](/pv_chal.svg) |
+| ![Rep](/rep.png)![EV_Incumbant](/ev_inc.svg)   |   | ![Rep](/rep.png)![PV_Incumbant](/pv_inc.svg)   |
+| ![Dem](/dem.png)![EV_Challenger](/ev_chal.svg) |   | ![Dem](/dem.png)![PV_Challenger](/pv_chal.svg) |
 
 ### [Click here for an interactive version of the map](choropleth_map.html)
 
