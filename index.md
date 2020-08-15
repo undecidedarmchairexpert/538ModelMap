@@ -1,7 +1,7 @@
 # Who will win the presidency?
 ---
 ## Chance of winning
-![Model Probabilities](/images/model_probability.svg)
+![Model Probabilities](/images/model_probability.svg){:height="333"}
 
 ![Choropleth Map](/images/choropleth_map.svg)
 

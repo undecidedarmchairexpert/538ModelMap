@@ -19,7 +19,7 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path clip-path="url(#p4a2e34327b)" d="M 7.2 58.461969 
+    <path clip-path="url(#p4fb9efe3ce)" d="M 7.2 58.461969 
 L 323.168688 58.461969 
 L 323.168688 29.301969 
 L 7.2 29.301969 
@@ -27,7 +27,7 @@ z
 " style="fill:#00aef3;"/>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#p4a2e34327b)" d="M 323.168688 58.461969 
+    <path clip-path="url(#p4fb9efe3ce)" d="M 323.168688 58.461969 
 L 324.396432 58.461969 
 L 324.396432 29.301969 
 L 323.168688 29.301969 
@@ -35,7 +35,7 @@ z
 " style="fill:#808080;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#p4a2e34327b)" d="M 324.396432 58.461969 
+    <path clip-path="url(#p4fb9efe3ce)" d="M 324.396432 58.461969 
 L 445.68 58.461969 
 L 445.68 29.301969 
 L 324.396432 29.301969 
@@ -662,7 +662,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p4a2e34327b">
+  <clipPath id="p4fb9efe3ce">
    <rect height="58.32" width="438.48" x="7.2" y="14.721969"/>
   </clipPath>
  </defs>
