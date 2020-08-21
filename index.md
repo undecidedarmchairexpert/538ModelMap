@@ -9,7 +9,7 @@
 | ![Rep](/images/rep.png){:height="35"} ![EV_Incumbant](/images/ev_inc.svg){:height="35"}   |                | ![Rep](/images/rep.png){:height="35"} ![PV_Incumbant](/images/pv_inc.svg){:height="35"}   |
 | ![Dem](/images/dem.png){:height="35"} ![EV_Challenger](/images/ev_chal.svg){:height="35"} |                | ![Dem](/images/dem.png){:height="35"} ![PV_Challenger](/images/pv_chal.svg){:height="35"} |
 
-`Last Updated: August 15, 2020`
+`Last Updated: August 21, 2020`
 
 ### [Click here for an interactive version of the map](choropleth_map.html)
 
